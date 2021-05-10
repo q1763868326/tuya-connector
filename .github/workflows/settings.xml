@@ -12,4 +12,13 @@
             <passphrase>${env.MAVEN_GPG_PASSPHRASE}</passphrase>
         </server>
     </servers>
+
+    <mirrors>
+        <mirror>
+            <id>tuya_other</id>
+            <name>tuya maven other</name>
+            <mirrorOf>*</mirrorOf>
+            <url>https://maven-other.tuya.com/repository/maven-public/</url>
+        </mirror>
+    </mirrors>
 </settings>
