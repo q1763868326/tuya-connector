@@ -19,7 +19,7 @@ jobs:
         server-username: MAVEN_USERNAME
         server-password: MAVEN_PASSWORD
     - name: Maven Install
-      run: mvn clean install -Dmaven.test.skip=true -s $GITHUB_WORKSPACE/.github/workflows/settings.xml
+      run: mvn clean install -e -Dmaven.test.skip=true -s $GITHUB_WORKSPACE/.github/workflows/settings.xml
     - name: Maven Repository Publish
       run: mvn deploy -s $GITHUB_WORKSPACE/.github/workflows/settings.xml
       env:
