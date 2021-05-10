@@ -15,6 +15,12 @@
 
     <mirrors>
         <mirror>
+            <id>alimaven</id>
+            <name>aliyun maven</name>
+            <mirrorOf>central</mirrorOf>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+        </mirror>
+        <mirror>
             <id>tuya_other</id>
             <name>tuya maven other</name>
             <mirrorOf>*</mirrorOf>
