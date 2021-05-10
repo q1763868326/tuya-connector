@@ -19,10 +19,8 @@ jobs:
         server-username: MAVEN_USERNAME
         server-password: MAVEN_PASSWORD
         settings-path: ${{ github.workspace }}/.github/workflows
-    - name: Build with Maven
-      run: mvn -B -e clean package -Dmaven.test.skip=true --file pom.xml -s $GITHUB_WORKSPACE/.github/workflows/settings.xml
     - name: Maven Repository Publish
-      run: mvn deploy
+      run: mvn -B -e clean deploy -s $GITHUB_WORKSPACE/.github/workflows/settings.xml -Dmaven.test.skip=true
       env:
         MAVEN_USERNAME: ${{ secrets.MAVEN_USER_NAME }}
         MAVEN_PASSWORD: ${{ secrets.MAVEN_PASSWORD }}
