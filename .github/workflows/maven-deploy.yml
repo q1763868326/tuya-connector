@@ -4,6 +4,7 @@ on:
     branches:
       - dev
       - release
+      - feat_workflow
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -16,9 +17,10 @@ jobs:
         java-version: '8'
         server-id: maven
         server-username: MAVEN_USERNAME
-        server-password: MAVEN_CENTRAL_TOKEN
+        server-password: MAVEN_PASSWORD
+        settings-path: ${{ github.action_path }}
     - name: Publish Maven
-      run: mvn deploy -Dmaven.test.skip=true
+      run: mvn deploy -Dmaven.test.skip=true -s $GITHUB_ACTION_PATH/settings.xml
       env:
         MAVEN_USERNAME: ${{ secrets.MAVEN_USER_NAME }}
-        MAVEN_CENTRAL_TOKEN: ${{ secrets.MAVEN_PASSWORD }}
+        MAVEN_PASSWORD: ${{ secrets.MAVEN_PASSWORD }}
