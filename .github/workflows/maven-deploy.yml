@@ -20,7 +20,7 @@ jobs:
         server-password: MAVEN_PASSWORD
         settings-path: ${{ github.action_path }}
     - name: Publish Maven
-      run: mvn deploy -Dmaven.test.skip=true -s $GITHUB_ACTION_PATH/settings.xml
+      run: mvn deploy -Dmaven.test.skip=true -s $GITHUB_WORKSPACE/settings.xml
       env:
         MAVEN_USERNAME: ${{ secrets.MAVEN_USER_NAME }}
         MAVEN_PASSWORD: ${{ secrets.MAVEN_PASSWORD }}
