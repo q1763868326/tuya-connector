@@ -18,7 +18,7 @@
             <id>alimaven</id>
             <name>aliyun maven</name>
             <mirrorOf>central</mirrorOf>
-            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <url>https://repo.maven.apache.org/maven2/</url>
         </mirror>
         <mirror>
             <id>tuya_other</id>
