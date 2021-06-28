@@ -18,8 +18,7 @@ import java.io.Serializable;
 @AllArgsConstructor
 @NoArgsConstructor
 public class AssetModify implements Serializable {
-
-    private static final long serialVersionUID = 4046817704993815783L;
+    protected static final long serialVersionUID = 1L;
     private String name;
     //private String metaId;
 

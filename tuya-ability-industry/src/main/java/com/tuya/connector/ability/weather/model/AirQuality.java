@@ -8,6 +8,8 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 import lombok.experimental.FieldDefaults;
 
+import java.io.Serializable;
+
 /**
  * @description:
  * @author: benguan.zhou@tuya.com
@@ -19,7 +21,8 @@ import lombok.experimental.FieldDefaults;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @ToString
 @Builder
-public class AirQuality {
+public class AirQuality implements Serializable {
+    protected static final long serialVersionUID = 1L;
 
     /**
      * 空气质量指数

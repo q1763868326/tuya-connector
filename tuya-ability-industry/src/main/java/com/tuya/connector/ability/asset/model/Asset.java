@@ -12,8 +12,7 @@ import java.io.Serializable;
  */
 @Data
 public class Asset implements Serializable {
-
-    private static final long serialVersionUID = 3658227130368171924L;
+    protected static final long serialVersionUID = 1L;
 
     /**
      * 资产Id

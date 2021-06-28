@@ -7,6 +7,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.FieldDefaults;
 
+import java.io.Serializable;
+
 /**
  * @author benguan.zhou@tuya.com
  * @description
@@ -17,7 +19,8 @@ import lombok.experimental.FieldDefaults;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class AclUser {
+public class AclUser implements Serializable {
+    protected static final long serialVersionUID = 1L;
 
     /**
      * 用户uid

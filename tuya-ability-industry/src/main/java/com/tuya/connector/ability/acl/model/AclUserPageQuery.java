@@ -6,6 +6,8 @@ import lombok.Data;
 import lombok.experimental.FieldDefaults;
 import lombok.experimental.SuperBuilder;
 
+import java.io.Serializable;
+
 /**
  * @author benguan.zhou@tuya.com
  * @description
@@ -14,7 +16,8 @@ import lombok.experimental.SuperBuilder;
 @Data
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @SuperBuilder
-public class AclUserPageQuery extends AclPageQuery {
+public class AclUserPageQuery extends AclPageQuery implements Serializable {
+    protected static final long serialVersionUID = 1L;
 
     /**
      * 角色名

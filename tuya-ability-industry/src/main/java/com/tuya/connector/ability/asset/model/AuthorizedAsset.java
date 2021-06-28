@@ -13,7 +13,7 @@ import java.io.Serializable;
 @Data
 @AllArgsConstructor
 public class AuthorizedAsset implements Serializable {
-    private static final long serialVersionUID = -3350891636365757991L;
+    protected static final long serialVersionUID = 1L;
     /**
      * 资产ID
      */

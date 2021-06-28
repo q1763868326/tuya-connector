@@ -8,6 +8,8 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 import lombok.experimental.FieldDefaults;
 
+import java.io.Serializable;
+
 /**
  * @description: 地理位置-经纬度
  * @author: benguan.zhou@tuya.com
@@ -19,7 +21,8 @@ import lombok.experimental.FieldDefaults;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @ToString
 @Builder
-public class GeoCoordinate {
+public class GeoCoordinate implements Serializable {
+    protected static final long serialVersionUID = 1L;
     String longitude;
     String latitude;
 }

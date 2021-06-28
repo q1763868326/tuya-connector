@@ -17,7 +17,7 @@ import java.io.Serializable;
 @NoArgsConstructor
 @Builder
 public class AssetAuthorize implements Serializable {
-    private static final long serialVersionUID = 8392308577501227408L;
+    protected static final long serialVersionUID = 1L;
 
     /**
      * 资产ID

@@ -8,6 +8,8 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 import lombok.experimental.FieldDefaults;
 
+import java.io.Serializable;
+
 /**
  * @description:
  * @author: benguan.zhou@tuya.com
@@ -19,6 +21,7 @@ import lombok.experimental.FieldDefaults;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @ToString
 @Builder
-public class Temperature {
+public class Temperature implements Serializable {
+    protected static final long serialVersionUID = 1L;
     String value;
 }

@@ -13,14 +13,13 @@ import java.util.List;
  */
 @Data
 public class DeviceStatuses implements Serializable {
-    private static final long serialVersionUID = 265266895576284774L;
+    protected static final long serialVersionUID = 1L;
     private String id;
     private List<DeviceStatus> status;
 
     @Data
     public static class DeviceStatus implements Serializable {
-
-        private static final long serialVersionUID = -4980052570441016642L;
+        protected static final long serialVersionUID = 1L;
         private String code;
         private String name;
         private Object value;

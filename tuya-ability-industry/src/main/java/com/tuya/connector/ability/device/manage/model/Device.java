@@ -11,8 +11,7 @@ import java.io.Serializable;
  */
 @Data
 public class Device implements Serializable {
-
-    private static final long serialVersionUID = -7824240582799706125L;
+    protected static final long serialVersionUID = 1L;
     private int activeTime;
     private String assetId;
     private String category;

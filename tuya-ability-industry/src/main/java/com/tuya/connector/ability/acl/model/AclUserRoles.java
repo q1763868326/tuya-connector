@@ -8,6 +8,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.FieldDefaults;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -20,7 +21,8 @@ import java.util.List;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class AclUserRoles {
+public class AclUserRoles implements Serializable {
+    protected static final long serialVersionUID = 1L;
 
     String uid;
 

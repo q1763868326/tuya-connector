@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.experimental.FieldDefaults;
 import lombok.experimental.SuperBuilder;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -16,7 +17,8 @@ import java.util.List;
 @Data
 @SuperBuilder
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class AclRolePageQuery extends AclPageQuery {
+public class AclRolePageQuery extends AclPageQuery implements Serializable {
+    protected static final long serialVersionUID = 1L;
     /**
     角色code集合	否
      */

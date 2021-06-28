@@ -7,6 +7,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.FieldDefaults;
 
+import java.io.Serializable;
+
 /**
  * <p> TODO
  *
@@ -18,7 +20,8 @@ import lombok.experimental.FieldDefaults;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class PasswordReset {
+public class PasswordReset implements Serializable {
+    protected static final long serialVersionUID = 1L;
 
     String username;
 

@@ -8,6 +8,8 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 import lombok.experimental.FieldDefaults;
 
+import java.io.Serializable;
+
 /**
  * @description:
  * @author: benguan.zhou@tuya.com
@@ -19,7 +21,8 @@ import lombok.experimental.FieldDefaults;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @ToString
 @Builder
-public class HlsLocation {
+public class HlsLocation implements Serializable {
+    protected static final long serialVersionUID = 1L;
 
     /**
      * 录像片段开始时间，使用 10 位时间戳表示，精确至秒

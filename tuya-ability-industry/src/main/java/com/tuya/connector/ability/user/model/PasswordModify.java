@@ -15,7 +15,7 @@ import java.io.Serializable;
 @Data
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class PasswordModify implements Serializable {
-    private static final long serialVersionUID = -5312379803800972081L;
+    protected static final long serialVersionUID = 1L;
     String newPassword;
     String oldPassword;
 }

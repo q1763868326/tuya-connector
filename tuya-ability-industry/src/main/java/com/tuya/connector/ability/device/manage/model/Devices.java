@@ -13,8 +13,7 @@ import java.util.List;
  */
 @Data
 public class Devices implements Serializable {
-
-    private static final long serialVersionUID = -729531291068553925L;
+    protected static final long serialVersionUID = 1L;
     private List<Device> list;
     private Boolean hasMore;
     private Integer total;

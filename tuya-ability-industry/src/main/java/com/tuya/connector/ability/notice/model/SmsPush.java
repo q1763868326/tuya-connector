@@ -4,6 +4,8 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
 
+import java.io.Serializable;
+
 /**
  * <p> TODO
  *
@@ -13,7 +15,8 @@ import lombok.ToString;
 @Data
 @ToString(callSuper = true)
 @EqualsAndHashCode(callSuper = true)
-public class SmsPush extends AbsNoticePush{
+public class SmsPush extends AbsNoticePush implements Serializable {
+    protected static final long serialVersionUID = 1L;
 
     /**
      * 国家码

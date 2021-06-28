@@ -8,6 +8,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.FieldDefaults;
 
+import java.io.Serializable;
 import java.util.Collection;
 
 /**
@@ -20,7 +21,8 @@ import java.util.Collection;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class AclPermissions {
+public class AclPermissions implements Serializable {
+    protected static final long serialVersionUID = 1L;
 
     @SerializedName("permissionList")
     Collection<AclPermission> permissionList;

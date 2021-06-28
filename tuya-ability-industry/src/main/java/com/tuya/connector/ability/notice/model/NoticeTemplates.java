@@ -2,6 +2,7 @@ package com.tuya.connector.ability.notice.model;
 
 import lombok.Data;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -11,7 +12,8 @@ import java.util.List;
  * @since 2021/6/23
  */
 @Data
-public abstract class NoticeTemplates {
+public abstract class NoticeTemplates implements Serializable {
+    protected static final long serialVersionUID = 1L;
 
     private long total;
 

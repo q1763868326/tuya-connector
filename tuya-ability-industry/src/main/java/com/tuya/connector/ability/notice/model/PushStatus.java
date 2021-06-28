@@ -15,6 +15,7 @@ import java.io.Serializable;
 @Data
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class PushStatus implements Serializable {
+    protected static final long serialVersionUID = 1L;
 
     boolean sendStatus;
 

@@ -14,8 +14,7 @@ import java.util.List;
  */
 @Data
 public class DeviceCommand implements Serializable {
-
-    private static final long serialVersionUID = 905778645527307532L;
+    protected static final long serialVersionUID = 1L;
     private List<Command> commands;
 
     public DeviceCommand() {

@@ -17,7 +17,7 @@ import java.io.Serializable;
 @ToString
 @SuperBuilder
 public class AclPageQuery implements Serializable {
-
+    protected static final long serialVersionUID = 1L;
     /**
      * Integer	每页容量	是
      */

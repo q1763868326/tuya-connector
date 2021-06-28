@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 import lombok.experimental.FieldDefaults;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -21,7 +22,8 @@ import java.util.List;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @ToString
 @Builder
-public class WeatherDailyForecast {
+public class WeatherDailyForecast implements Serializable {
+    protected static final long serialVersionUID = 1L;
     Coordinate coordinate;
     List<WeatherDetail> data;
 }

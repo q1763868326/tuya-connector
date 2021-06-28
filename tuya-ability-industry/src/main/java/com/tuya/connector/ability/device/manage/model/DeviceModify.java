@@ -12,7 +12,6 @@ import java.io.Serializable;
  */
 @Data
 public class DeviceModify implements Serializable {
-
-    private static final long serialVersionUID = 155908041842121243L;
+    protected static final long serialVersionUID = 1L;
     private String name;
 }

@@ -18,8 +18,7 @@ import java.io.Serializable;
 @NoArgsConstructor
 @AllArgsConstructor
 public class AssetAdd implements Serializable {
-
-    private static final long serialVersionUID = -4413618452512443438L;
+    protected static final long serialVersionUID = 1L;
     private String name;
     //private String metaId;
     private String parentAssetId;

@@ -12,15 +12,14 @@ import java.util.List;
  */
 @Data
 public class DeviceSpec implements Serializable {
-
-    private static final long serialVersionUID = -4645014127674068502L;
+    protected static final long serialVersionUID = 1L;
     private String category;
     private List<DeviceFunctions> functions;
     private List<DeviceStatus> status;
 
     @Data
     public static class DeviceFunctions implements Serializable {
-        private static final long serialVersionUID = -4612688818929414519L;
+        protected static final long serialVersionUID = 1L;
         private String code;
         private String desc;
         private String name;
@@ -30,8 +29,7 @@ public class DeviceSpec implements Serializable {
 
     @Data
     public static class DeviceStatus implements Serializable {
-
-        private static final long serialVersionUID = -4980052570441016642L;
+        protected static final long serialVersionUID = 1L;
         private String code;
         private String name;
         private String type;

@@ -8,6 +8,8 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 import lombok.experimental.FieldDefaults;
 
+import java.io.Serializable;
+
 /**
  * @description:
  * @author: benguan.zhou@tuya.com
@@ -19,10 +21,11 @@ import lombok.experimental.FieldDefaults;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @ToString
 @Builder
-public class GeoCountryLocation {
-    String country_code;
-    String national_number;
+public class GeoCountryLocation implements Serializable {
+    protected static final long serialVersionUID = 1L;
+    String countryCode;
+    String nationalNumber;
     String longitude;
     String latitude;
-    String continent_code;
+    String continentCode;
 }
