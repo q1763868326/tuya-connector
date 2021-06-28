@@ -17,13 +17,17 @@ import java.security.NoSuchAlgorithmException;
  */
 public class Sha256Util {
 
-    public static String encryption(String str) throws Exception{
+    public static String encryption(String str){
         return encryption(str.getBytes(StandardCharsets.UTF_8));
     }
 
-    public static String encryption(byte[] buf) throws Exception{
+    public static String encryption(byte[] buf){
         MessageDigest messageDigest;
-        messageDigest = MessageDigest.getInstance("SHA-256");
+        try {
+            messageDigest = MessageDigest.getInstance("SHA-256");
+        } catch (NoSuchAlgorithmException e) {
+            throw new RuntimeException(e);
+        }
         messageDigest.update(buf);
         return byte2Hex(messageDigest.digest());
     }
