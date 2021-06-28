@@ -13,22 +13,22 @@ import java.io.Serializable;
 public class Device implements Serializable {
 
     private static final long serialVersionUID = -7824240582799706125L;
-    private int active_time;
-    private String asset_id;
+    private int activeTime;
+    private String assetId;
     private String category;
-    private int create_time;
+    private int createTime;
     private String icon;
     private String id;
     private String ip;
     private String lat;
-    private String local_key;
+    private String localKey;
     private String lon;
     private String name;
     private boolean online;
-    private String product_id;
-    private String product_name;
+    private String productId;
+    private String productName;
     private boolean sub;
-    private String time_zone;
-    private int update_time;
+    private String timeZone;
+    private int updateTime;
     private String uuid;
 }

@@ -1,6 +1,9 @@
 package com.tuya.connector.ability.asset.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
@@ -11,10 +14,13 @@ import java.io.Serializable;
  * @date 2021/3/27
  */
 @Data
-public class AssetCreate implements Serializable {
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class AssetAdd implements Serializable {
 
     private static final long serialVersionUID = -4413618452512443438L;
     private String name;
-    private String meta_id;
-    private String parent_asset_id;
+    //private String metaId;
+    private String parentAssetId;
 }

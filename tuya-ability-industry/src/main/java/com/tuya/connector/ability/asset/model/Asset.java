@@ -18,27 +18,27 @@ public class Asset implements Serializable {
     /**
      * 资产Id
      */
-    private String asset_id;
+    private String assetId;
 
     /**
      * 资产名
      */
-    private String asset_name;
+    private String assetName;
 
     /**
      * 资产全名
      */
-    private String asset_full_name;
+    private String assetFullName;
 
     /**
      * 父资产id
      */
-    private String parent_asset_id;
+    private String parentAssetId;
 
     /**
      * 设备ID
      */
-    private String device_id;
+    private String deviceId;
     /**
      * 层级号
      */

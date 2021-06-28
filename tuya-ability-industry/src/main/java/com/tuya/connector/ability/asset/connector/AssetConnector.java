@@ -1,10 +1,9 @@
 package com.tuya.connector.ability.asset.connector;
 
 import com.tuya.connector.ability.asset.model.Asset;
-import com.tuya.connector.ability.asset.model.AssetCreate;
-import com.tuya.connector.ability.asset.model.AssetAuthorizationRequest;
+import com.tuya.connector.ability.asset.model.AssetAdd;
+import com.tuya.connector.ability.asset.model.AssetAuthorize;
 import com.tuya.connector.ability.asset.model.AssetModify;
-import com.tuya.connector.ability.asset.model.AuthorizedAsset;
 import com.tuya.connector.api.annotations.Body;
 import com.tuya.connector.api.annotations.DELETE;
 import com.tuya.connector.api.annotations.GET;
@@ -13,7 +12,7 @@ import com.tuya.connector.api.annotations.PUT;
 import com.tuya.connector.api.annotations.Path;
 import com.tuya.connector.api.annotations.Query;
 import com.tuya.connector.open.api.model.PageResult;
-import com.tuya.connector.open.api.model.PageResultWithTotal;
+
 import java.util.List;
 
 /**
@@ -26,7 +25,7 @@ public interface AssetConnector {
 
     
     @POST("/v1.0/iot-02/assets")
-    String addAsset(@Body AssetCreate request);
+    String addAsset(@Body AssetAdd assetAdd);
 
     
     @PUT("/v1.0/iot-02/assets/{asset_id}")
@@ -52,16 +51,16 @@ public interface AssetConnector {
     
     @GET("/v1.0/iot-02/assets/{asset_id}/sub-assets")
     PageResult<Asset> selectChildAssets(@Path("asset_id") String assetId, @Query("last_row_key") String lastRowKey,
-                                        @Query("page_size") String pageSize);
+                                        @Query("page_size") Integer pageSize);
 
     
     @GET("/v1.0/iot-02/assets/{asset_id}/devices")
     PageResult<Asset> selectChildDevices(@Path("asset_id") String assetId, @Query("last_row_key") String lastRowKey,
-                                         @Query("page_size") String pageSize);
+                                         @Query("page_size") Integer pageSize);
 
     
     @POST("/v1.0/iot-03/assets/actions/user-authorized")
-    Boolean authorized(@Body AssetAuthorizationRequest assetAuthorizationRequest);
+    Boolean authorize(@Body AssetAuthorize assetAuthorize);
 
 
 }

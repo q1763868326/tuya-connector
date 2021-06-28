@@ -13,8 +13,8 @@ import java.io.Serializable;
 @Data
 public class User implements Serializable {
     private static final long serialVersionUID = 2733929104492848165L;
-    private String country_code;
-    private String user_id;
-    private String user_name;
+    private String countryCode;
+    private String userId;
+    private String userName;
     private String nickName;
 }

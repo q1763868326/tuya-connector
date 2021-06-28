@@ -24,21 +24,21 @@ public class Country {
     /**
      * 国家码
      */
-    String country_code;
+    String countryCode;
 
     /**
      * 国家区号
      */
-    String national_number;
+    String nationalNumber;
 
     /**
      * 国家名称
      */
-    String country_name;
+    String countryName;
 
     /**
      * 国家的拼音
      */
-    String country_phonetic_alphabet;
+    String countryPhoneticAlphabet;
 
 }

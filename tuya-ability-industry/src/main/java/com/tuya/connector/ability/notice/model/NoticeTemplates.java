@@ -17,11 +17,11 @@ public abstract class NoticeTemplates {
 
     private List<NoticeTemplate> list;
 
-    private boolean has_more;
+    private boolean hasMore;
 
     @Data
     static class NoticeTemplate {
-        private String template_id;
+        private String templateId;
         private String name;
         private String content;
         private int status;

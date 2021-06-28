@@ -29,7 +29,7 @@ public class Weather {
     /**
      * 天气概况数字编码
      */
-    String condition_num;
+    String conditionNum;
 
     /**
      * 温度
@@ -49,7 +49,7 @@ public class Weather {
     /**
      * 体感温度
      */
-    String real_feel;
+    String realFeel;
 
     /**
      * 紫外线指数
@@ -59,6 +59,6 @@ public class Weather {
     /**
      * 风速
      */
-    String wind_speed;
+    String windSpeed;
 
 }

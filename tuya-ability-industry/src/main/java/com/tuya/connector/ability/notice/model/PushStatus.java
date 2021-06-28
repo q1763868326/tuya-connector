@@ -16,6 +16,6 @@ import java.io.Serializable;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class PushStatus implements Serializable {
 
-    boolean send_status;
+    boolean sendStatus;
 
 }

@@ -27,12 +27,12 @@ public class AudioAttrs {
      * 呼叫模式
      * TODO 待确认是什么类型的list
      */
-    List<Integer> call_mode;
+    List<Integer> callMode;
 
     /**
      * 硬件能力
      * TODO 待确认是什么类型的list
      */
-    List<Integer> hardware_capability;
+    List<Integer> hardwareCapability;
 
 }

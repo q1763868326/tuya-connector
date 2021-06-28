@@ -17,7 +17,6 @@ import lombok.experimental.FieldDefaults;
 @NoArgsConstructor
 public class UserLogin {
     private String username;
-    private String user_name;
     private String password;
-    private String country_code;
+    private String countryCode;
 }

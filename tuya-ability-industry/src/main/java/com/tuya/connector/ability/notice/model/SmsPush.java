@@ -14,19 +14,11 @@ import lombok.ToString;
 @ToString(callSuper = true)
 @EqualsAndHashCode(callSuper = true)
 public class SmsPush extends AbsNoticePush{
-    /**
-     * 必须填写已审核通过的模板 ID
-     */
-    protected String template_id;
 
-    /**
-     * 邮件模板变量对应的实际值，JSON 格式
-     */
-    protected String template_param;
     /**
      * 国家码
      */
-    private String country_code;
+    private String countryCode;
     /**
      * 接收短信的手机号码
      */

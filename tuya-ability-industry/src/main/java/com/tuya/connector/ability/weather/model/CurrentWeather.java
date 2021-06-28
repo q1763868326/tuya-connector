@@ -29,11 +29,11 @@ public class CurrentWeather {
     /**
      * 当前天气对象
      */
-    Weather current_weather;
+    Weather currentWeather;
 
     /**
      * 空气质量对象
      */
-    AirQuality air_quality;
+    AirQuality airQuality;
 
 }

@@ -24,7 +24,7 @@ public class WebRTCConfig {
     /**
      * 音频属性
      */
-    AudioAttrs audio_attributes;
+    AudioAttrs audioAttributes;
 
     /**
      * 授权码
@@ -39,12 +39,12 @@ public class WebRTCConfig {
     /**
      * 信令服务ID
      */
-    String moto_id;
+    String motoId;
 
     /**
      * P2P配置
      */
-    P2pConfig p2p_config;
+    P2pConfig p2pConfig;
 
     /**
      * 技能
@@ -54,11 +54,11 @@ public class WebRTCConfig {
     /**
      * 是否支持WebRTC
      */
-    Boolean supports_webrtc;
+    Boolean supportsWebrtc;
 
     /**
      * 视频清晰度
      */
-    Integer vedio_clarity;
+    Integer vedioClarity;
 
 }

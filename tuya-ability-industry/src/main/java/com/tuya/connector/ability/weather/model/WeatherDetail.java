@@ -29,7 +29,7 @@ public class WeatherDetail {
     /**
      * zoneId
      */
-    String zone_id;
+    String zoneId;
 
     /**
      * 实时天气
@@ -39,12 +39,12 @@ public class WeatherDetail {
     /**
      * 天气数值类型 code
      */
-    Integer condition_num;
+    Integer conditionNum;
 
     /**
      * thunderstorm:雷暴,drizzle:细雨, rain:雨,snow:雪,atmosphere:大气,clear:晴朗,clouds:云
      */
-    String brief_condition;
+    String briefCondition;
 
     /**
      * 湿度
@@ -64,66 +64,66 @@ public class WeatherDetail {
     /**
      * 温度单位 f / c
      */
-    String temp_unit;
+    String tempUnit;
 
     /**
      * 当日最低气温（只在按天预报的数据中有值）
      * TODO 和文档不一致
      */
-    Temperature temperature_min;
+    Temperature temperatureMin;
 
     /**
      * 当日最高气温（只在按天预报的数据中有值）
      * TODO 和文档不一致
      */
-    Temperature temperature_max;
+    Temperature temperatureMax;
 
     /**
      * 体感温度
      */
-    String real_feel;
+    String realFeel;
 
     /**
      * 当日最低体感温度（只在按天预报的数据中有值）
      * TODO 和文档不一致
      */
-    Temperature apparent_temperature_min;
+    Temperature apparentTemperatureMin;
 
     /**
      * 当日最高体感温度（只在按天预报的数据中有值）
      * TODO 和文档不一致
      */
-    Temperature apparent_temperature_max;
+    Temperature apparentTemperatureMax;
 
     /**
      * 日出时间，时间戳
      */
-    Long sunrise_inst;
+    Long sunriseInst;
 
     /**
      * 日落时间(时间戳)
      */
-    Long sunset_inst;
+    Long sunsetInst;
 
     /**
      * 日出时间，当地时间 “yyyy-MM-dd HH:mm”
      */
-    String sun_rise;
+    String sunRise;
 
     /**
      * 日落时间(当地时间) “yyyy-MM-dd HH:mm”
      */
-    String sun_set;
+    String sunSet;
 
     /**
      * 风速
      */
-    String wind_speed;
+    String windSpeed;
 
     /**
      * 风向
      */
-    String wind_dir;
+    String windDir;
 
     /**
      * 紫外线强度
