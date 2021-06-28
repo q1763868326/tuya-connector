@@ -2,7 +2,10 @@ package com.tuya.connector.ability.acl.model;
 
 import com.google.gson.annotations.SerializedName;
 import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 import lombok.experimental.FieldDefaults;
 import lombok.experimental.SuperBuilder;
 
@@ -15,8 +18,10 @@ import java.util.List;
  * @date 2021/06/01
  */
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 @SuperBuilder
-@FieldDefaults(level = AccessLevel.PRIVATE)
+@EqualsAndHashCode(callSuper = true)
 public class AclRolePageQuery extends AclPageQuery implements Serializable {
     protected static final long serialVersionUID = 1L;
     /**

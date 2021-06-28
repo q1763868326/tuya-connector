@@ -1,8 +1,11 @@
 package com.tuya.connector.ability.notice.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 import lombok.ToString;
+import lombok.experimental.SuperBuilder;
 
 import java.io.Serializable;
 
@@ -13,7 +16,9 @@ import java.io.Serializable;
  * @since 2021/6/9
  */
 @Data
-@ToString(callSuper = true)
+@NoArgsConstructor
+@AllArgsConstructor
+@SuperBuilder
 @EqualsAndHashCode(callSuper = true)
 public class SmsPush extends AbsNoticePush implements Serializable {
     protected static final long serialVersionUID = 1L;

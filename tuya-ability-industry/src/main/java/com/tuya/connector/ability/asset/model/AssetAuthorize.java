@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.experimental.SuperBuilder;
 
 import java.io.Serializable;
 
@@ -13,9 +14,9 @@ import java.io.Serializable;
  * @date 2021/04/20
  **/
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
-@Builder
+@AllArgsConstructor
+@SuperBuilder
 public class AssetAuthorize implements Serializable {
     protected static final long serialVersionUID = 1L;
 

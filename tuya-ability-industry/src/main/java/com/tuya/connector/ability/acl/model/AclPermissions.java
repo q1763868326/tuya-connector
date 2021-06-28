@@ -7,6 +7,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.FieldDefaults;
+import lombok.experimental.SuperBuilder;
 
 import java.io.Serializable;
 import java.util.Collection;
@@ -17,10 +18,9 @@ import java.util.Collection;
  * @date 2021/05/24
  */
 @Data
-@FieldDefaults(level = AccessLevel.PRIVATE)
-@Builder
 @NoArgsConstructor
 @AllArgsConstructor
+@SuperBuilder
 public class AclPermissions implements Serializable {
     protected static final long serialVersionUID = 1L;
 

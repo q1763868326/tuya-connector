@@ -6,6 +6,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.FieldDefaults;
+import lombok.experimental.SuperBuilder;
 
 import java.io.Serializable;
 
@@ -16,10 +17,9 @@ import java.io.Serializable;
  * @since 2021/6/9
  */
 @Data
-@FieldDefaults(level = AccessLevel.PRIVATE)
-@AllArgsConstructor
 @NoArgsConstructor
-@Builder
+@AllArgsConstructor
+@SuperBuilder
 public class PasswordReset implements Serializable {
     protected static final long serialVersionUID = 1L;
 

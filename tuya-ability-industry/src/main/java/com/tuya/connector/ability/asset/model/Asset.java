@@ -1,6 +1,9 @@
 package com.tuya.connector.ability.asset.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.experimental.SuperBuilder;
 
 import java.io.Serializable;
 
@@ -11,6 +14,9 @@ import java.io.Serializable;
  * @date 2021/3/9
  */
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
+@SuperBuilder
 public class Asset implements Serializable {
     protected static final long serialVersionUID = 1L;
 

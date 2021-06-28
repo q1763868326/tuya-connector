@@ -7,6 +7,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 import lombok.experimental.FieldDefaults;
+import lombok.experimental.SuperBuilder;
 
 import java.io.Serializable;
 
@@ -16,11 +17,9 @@ import java.io.Serializable;
  * @date: 2021/05/25
  */
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
-@FieldDefaults(level = AccessLevel.PRIVATE)
-@ToString
-@Builder
+@AllArgsConstructor
+@SuperBuilder
 public class Temperature implements Serializable {
     protected static final long serialVersionUID = 1L;
     String value;

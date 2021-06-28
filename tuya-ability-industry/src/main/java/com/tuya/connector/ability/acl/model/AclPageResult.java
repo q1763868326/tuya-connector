@@ -6,6 +6,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.FieldDefaults;
+import lombok.experimental.SuperBuilder;
 
 import java.io.Serializable;
 import java.util.List;
@@ -16,10 +17,9 @@ import java.util.List;
  * @date 2021/06/01
  */
 @Data
-@Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@FieldDefaults(level = AccessLevel.PRIVATE)
+@SuperBuilder
 public class AclPageResult<T> implements Serializable {
     protected static final long serialVersionUID = 1L;
     Integer pageNumber;
