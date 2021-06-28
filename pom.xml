@@ -12,6 +12,7 @@
         <module>tuya-messaging</module>
         <module>tuya-common</module>
         <module>tuya-spring-boot-starter</module>
+        <module>tuya-ability-industry</module>
     </modules>
 
     <properties>
@@ -55,6 +56,12 @@
             <dependency>
                 <groupId>com.tuya</groupId>
                 <artifactId>tuya-messaging</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.tuya</groupId>
+                <artifactId>tuya-ability-industry</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
