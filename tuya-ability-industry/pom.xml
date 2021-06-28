@@ -15,5 +15,14 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
-
+    <dependencies>
+        <dependency>
+            <groupId>com.tuya</groupId>
+            <artifactId>connector-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.tuya</groupId>
+            <artifactId>tuya-api</artifactId>
+        </dependency>
+    </dependencies>
 </project>
