@@ -2,7 +2,6 @@ package com.tuya.connector.ability.acl.connector;
 
 import com.tuya.connector.ability.acl.model.AclPageResult;
 import com.tuya.connector.ability.acl.model.AclRole;
-import com.tuya.connector.ability.acl.model.RoleUpdateReq;
 import com.tuya.connector.ability.acl.model.AclRolePageQuery;
 import com.tuya.connector.api.annotations.Body;
 import com.tuya.connector.api.annotations.DELETE;
@@ -28,7 +27,7 @@ public interface AclRoleConnector {
     
     Boolean updateRole(@Path("space_id") String spaceId,
                        @Path("role_code")String roleCode,
-                       @Body RoleUpdateReq request);
+                       @Body AclRole request);
 
     @DELETE("/v1.0/iot-03/idaas/spaces/{space_id}/roles/{role_code}")
     
