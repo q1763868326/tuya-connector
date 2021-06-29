@@ -9,27 +9,14 @@ import lombok.experimental.SuperBuilder;
 
 import java.io.Serializable;
 
-/**
- * <p> TODO
- *
- * @author 哲也
- * @since 2021/6/9
- */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @SuperBuilder
 @EqualsAndHashCode(callSuper = true)
-public class MailPush extends AbsNoticePush implements Serializable {
+@ToString(callSuper = true)
+public class MailNoticeTemplate extends NoticeTemplate implements Serializable {
     protected static final long serialVersionUID = 1L;
-
-    /**
-     * 收件人的地址
-     */
-    private String toAddress;
-
-    /**
-     * 邮件的回复地址
-     */
-    private String replyToAddress;
+    String title;
+    String senderName;
 }

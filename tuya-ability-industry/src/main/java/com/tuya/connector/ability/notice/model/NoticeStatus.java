@@ -6,25 +6,14 @@ import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
 import java.io.Serializable;
-import java.util.List;
 
-/**
- * <p> TODO
- *
- * @author 哲也
- * @since 2021/6/23
- */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @SuperBuilder
-public abstract class NoticeTemplates implements Serializable {
+public class NoticeStatus implements Serializable {
     protected static final long serialVersionUID = 1L;
 
-    private long total;
-
-    private List<NoticeTemplate> list;
-
-    private boolean hasMore;
+    boolean sendStatus;
 
 }

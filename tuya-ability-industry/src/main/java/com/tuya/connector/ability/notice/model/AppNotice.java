@@ -9,26 +9,21 @@ import lombok.experimental.SuperBuilder;
 
 import java.io.Serializable;
 
-/**
- * <p> TODO
- *
- * @author 哲也
- * @since 2021/6/9
- */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @SuperBuilder
 @EqualsAndHashCode(callSuper = true)
-public class SmsPush extends AbsNoticePush implements Serializable {
+@ToString(callSuper = true)
+public class AppNotice extends AbsNotice implements Serializable {
     protected static final long serialVersionUID = 1L;
+    /**
+     * 用户ID
+     */
+    private String uid;
+    /**
+     * 涂鸦体系的业务类型
+     */
+    private String bizType;
 
-    /**
-     * 国家码
-     */
-    private String countryCode;
-    /**
-     * 接收短信的手机号码
-     */
-    private String phone;
 }
