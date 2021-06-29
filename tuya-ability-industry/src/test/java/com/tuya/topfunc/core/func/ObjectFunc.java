@@ -1,17 +1,9 @@
 package com.tuya.topfunc.core.func;
 
 import com.google.common.base.Defaults;
-import lombok.SneakyThrows;
 import com.tuya.topfunc.core.base.dict.Dict;
-import com.tuya.topfunc.core.base.tuple.Tuple10;
-import com.tuya.topfunc.core.base.tuple.Tuple2;
-import com.tuya.topfunc.core.base.tuple.Tuple3;
-import com.tuya.topfunc.core.base.tuple.Tuple4;
-import com.tuya.topfunc.core.base.tuple.Tuple5;
-import com.tuya.topfunc.core.base.tuple.Tuple6;
-import com.tuya.topfunc.core.base.tuple.Tuple7;
-import com.tuya.topfunc.core.base.tuple.Tuple8;
-import com.tuya.topfunc.core.base.tuple.Tuple9;
+import com.tuya.topfunc.core.base.tuple.*;
+import lombok.SneakyThrows;
 import org.springframework.util.ClassUtils;
 import org.springframework.util.SerializationUtils;
 import org.springframework.util.StringUtils;
@@ -50,18 +42,27 @@ public interface ObjectFunc {
      * 第一个参数为空时，返回第二个参数
      */
     default <T> T orElse(T t, T elseValue) {
-        return Optional.ofNullable(t).orElse(elseValue);
+        return bool(t)?t:elseValue;
+        //return Optional.ofNullable(t).orElse(elseValue);
         //return t != null ? t : elseValue;
     }
 
     default <T> T orElseGet(T t, Supplier<T> supplier) {
-        return Optional.ofNullable(t).orElseGet(supplier);
+        if(bool(t)){
+            return t;
+        }
+        return supplier.get();
+        //return Optional.ofNullable(t).orElseGet(supplier);
     }
 
     @SneakyThrows
     default <T, X extends Throwable> T orElseThrow(T t,
                                                    Supplier<? extends X> supplier) {
-        return Optional.ofNullable(t).orElseThrow(supplier);
+        if(bool(t)){
+            return t;
+        }
+        throw supplier.get();
+        //return Optional.ofNullable(t).orElseThrow(supplier);
     }
 
     /**
