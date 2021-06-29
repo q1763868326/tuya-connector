@@ -11,6 +11,8 @@ import com.tuya.connector.api.annotations.POST;
 import com.tuya.connector.api.annotations.PUT;
 import com.tuya.connector.api.annotations.Path;
 import com.tuya.connector.api.annotations.Query;
+import com.tuya.connector.industry.ability.asset.model.UserAsset;
+import com.tuya.connector.industry.ability.asset.model.UserAssets;
 import com.tuya.connector.open.api.model.PageResult;
 import java.util.List;
 
@@ -58,6 +60,16 @@ public interface AssetConnector {
     
     @POST("/v1.0/iot-03/assets/actions/user-authorized")
     Boolean authorize(@Body AssetAuthorize assetAuthorize);
+
+    @POST("/v1.0/iot-03/users/{uid}/actions/batch-assets-authorized")
+    Boolean authorizeAssetsToUser(@Path("uid") String userId, @Body UserAssets userAssets);
+
+    @POST("/v1.0/iot-03/users/{uid}/actions/batch-assets-unauthorized")
+    Boolean unAuthorizeAssetsFromUser(@Path("uid") String userId, @Body UserAssets userAssets);
+
+    @POST("/v1.0/iot-03/users/{uid}/actions/assets-unauthorized")
+    Boolean unAuthorizeAssetFromUser(@Path("uid") String userId, @Body UserAsset userAsset);
+
 
 
 }
