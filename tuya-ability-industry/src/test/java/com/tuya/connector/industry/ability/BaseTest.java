@@ -35,6 +35,7 @@ public class BaseTest implements TopFunc {
         dataSource.setAk(bundle.getString("connector.api.ak"));
         dataSource.setSk(bundle.getString("connector.api.sk"));
         dataSource.setLoggingStrategy(Logging.Strategy.BASIC);
+        //dataSource.setLoggingLevel(Logging.Level.DEBUG);
         dataSource.setAutoSetHeader(true);
         HeaderProcessor headerProcessor = new TuyaHeaderProcessor(config);
         dataSource.setHeaderProcessor(headerProcessor);
