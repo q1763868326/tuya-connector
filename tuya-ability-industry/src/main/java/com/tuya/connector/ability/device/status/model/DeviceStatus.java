@@ -1,25 +1,22 @@
-package com.tuya.connector.ability.media.model;
+package com.tuya.connector.ability.device.status.model;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
+
 import java.io.Serializable;
-import java.util.List;
 
 /**
- * @description
  * @author benguan.zhou@tuya.com
- * @date 2021/05/24
+ * @description
+ * @date 2021/06/29
  */
 @Data
 @NoArgsConstructor
 @SuperBuilder
-public class P2pConfig implements Serializable {
+public class DeviceStatus implements Serializable {
     protected static final long serialVersionUID = 1L;
-
-    /**
-     * ICE信息
-     */
-    List<Ice> ices;
-
+    private String code;
+    private String name;
+    private Object value;
 }

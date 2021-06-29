@@ -1,13 +1,13 @@
 package com.tuya.connector.ability.acl.model;
 
 import com.google.gson.annotations.SerializedName;
-import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
+
+
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
-import lombok.experimental.FieldDefaults;
+
 import lombok.experimental.SuperBuilder;
 
 import java.io.Serializable;
@@ -19,11 +19,10 @@ import java.io.Serializable;
  */
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
 @SuperBuilder
 @EqualsAndHashCode(callSuper = true)
 @ToString(callSuper = true)
-public class AclUserPageQuery extends AclPageQuery implements Serializable {
+public class AclUsersPageParam extends AclPageParam implements Serializable {
     protected static final long serialVersionUID = 1L;
 
     /**

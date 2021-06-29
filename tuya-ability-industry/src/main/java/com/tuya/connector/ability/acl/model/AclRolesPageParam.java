@@ -1,13 +1,11 @@
 package com.tuya.connector.ability.acl.model;
 
-import com.google.gson.annotations.SerializedName;
-import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
+
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
-import lombok.experimental.FieldDefaults;
+
 import lombok.experimental.SuperBuilder;
 
 import java.io.Serializable;
@@ -20,25 +18,20 @@ import java.util.List;
  */
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
 @SuperBuilder
 @EqualsAndHashCode(callSuper = true)
 @ToString(callSuper = true)
-public class AclRolePageQuery extends AclPageQuery implements Serializable {
+public class AclRolesPageParam extends AclPageParam implements Serializable {
     protected static final long serialVersionUID = 1L;
     /**
     角色code集合	否
      */
-    @SerializedName("roleCodes")
     List<String> roleCodes;
     /**String	角色code	否*/
-    @SerializedName("roleCode")
     String roleCode;
     /**	String	角色名称	否*/
-    @SerializedName("roleName")
     String roleName;
 
-    @SerializedName("gmtModifiedAsc")
     Boolean gmtModifiedAsc;
 
 }

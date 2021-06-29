@@ -10,8 +10,6 @@ import com.tuya.connector.api.annotations.POST;
 import com.tuya.connector.api.annotations.Query;
 
 /**
- * <p> TODO
- *
  * @author 哲也
  * @since 2021/4/13
  */
@@ -24,7 +22,7 @@ public interface MailNoticeConnector {
     MailNoticeTemplate applyTemplate(@Body MailNoticeTemplate mailTemplateReq);
 
     @GET("/v1.0/iot-03/msg-templates/mails")
-    NoticeTemplates getTemplateList(@Query("page_no") int pageNo,
-                                             @Query("page_size") int pageSize,
-                                             @Query("sort") int sort);
+    NoticeTemplates queryPagingTemplates(@Query("page_no") int pageNo,
+                                    @Query("page_size") int pageSize,
+                                    @Query("sort") int sort);
 }

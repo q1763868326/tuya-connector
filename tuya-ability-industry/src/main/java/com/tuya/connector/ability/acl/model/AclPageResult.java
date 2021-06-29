@@ -1,13 +1,8 @@
 package com.tuya.connector.ability.acl.model;
 
-import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.experimental.FieldDefaults;
 import lombok.experimental.SuperBuilder;
-
 import java.io.Serializable;
 import java.util.List;
 
@@ -18,7 +13,6 @@ import java.util.List;
  */
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
 @SuperBuilder
 public class AclPageResult<T> implements Serializable {
     protected static final long serialVersionUID = 1L;

@@ -1,17 +1,14 @@
 package com.tuya.connector.ability.notice.model;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
-
 import java.io.Serializable;
 
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
 @SuperBuilder
-public abstract class NoticeTemplate implements Serializable {
+@NoArgsConstructor
+public class NoticeTemplate implements Serializable {
     protected static final long serialVersionUID = 1L;
 
     private String templateId;

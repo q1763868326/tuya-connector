@@ -1,13 +1,8 @@
 package com.tuya.connector.ability.acl.model;
 
-import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.experimental.FieldDefaults;
 import lombok.experimental.SuperBuilder;
-
 import java.io.Serializable;
 
 /**
@@ -17,7 +12,6 @@ import java.io.Serializable;
  */
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
 @SuperBuilder
 public class AclUser implements Serializable {
     protected static final long serialVersionUID = 1L;

@@ -1,21 +1,23 @@
-package com.tuya.connector.ability.acl.model;
+package com.tuya.connector.ability.device.control.model;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 import java.io.Serializable;
-import java.util.Collection;
 
 /**
  * @author benguan.zhou@tuya.com
  * @description
- * @date 2021/05/24
+ * @date 2021/06/29
  */
 @Data
 @NoArgsConstructor
 @SuperBuilder
-public class AclPermissions implements Serializable {
+public class DeviceFunction implements Serializable {
     protected static final long serialVersionUID = 1L;
-
-    Collection<AclPermission> permissionList;
+    private String code;
+    private String desc;
+    private String name;
+    private String type;
+    private String values;
 }

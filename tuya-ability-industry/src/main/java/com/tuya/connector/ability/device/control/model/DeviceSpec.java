@@ -1,10 +1,8 @@
 package com.tuya.connector.ability.device.control.model;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
-
 import java.io.Serializable;
 import java.util.List;
 
@@ -15,31 +13,11 @@ import java.util.List;
  */
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
 @SuperBuilder
 public class DeviceSpec implements Serializable {
     protected static final long serialVersionUID = 1L;
     private String category;
-    private List<DeviceFunctions> functions;
+    private List<DeviceFunction> functions;
     private List<DeviceStatus> status;
-
-    @Data
-    public static class DeviceFunctions implements Serializable {
-        protected static final long serialVersionUID = 1L;
-        private String code;
-        private String desc;
-        private String name;
-        private String type;
-        private String values;
-    }
-
-    @Data
-    public static class DeviceStatus implements Serializable {
-        protected static final long serialVersionUID = 1L;
-        private String code;
-        private String name;
-        private String type;
-        private String values;
-    }
 
 }

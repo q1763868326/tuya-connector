@@ -19,7 +19,7 @@ public interface ClientConnector {
     TuyaToken login(@Body UserLogin userLogin);
 
     @GET("/v1.0/iot-03/users/{uid}/assets")
-    PageResultWithTotal<AuthorizedAsset> queryAuthorizedAssets(@Path("uid") String uid,
-                                                                  @Query("pageNo") int pageNo,
-                                                                  @Query("pageSize") int pageSize);
+    PageResultWithTotal<AuthorizedAsset> queryPagingAuthorizedAssets(@Path("uid") String uid,
+                                                               @Query("pageNo") int pageNo,
+                                                               @Query("pageSize") int pageSize);
 }

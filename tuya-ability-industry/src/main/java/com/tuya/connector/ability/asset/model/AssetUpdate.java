@@ -1,20 +1,21 @@
-package com.tuya.connector.ability.weather.model;
+package com.tuya.connector.ability.asset.model;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
+
 import java.io.Serializable;
 
 /**
- * @description
- * @author benguan.zhou@tuya.com
- * @date 2021/05/24
+ * @author Chyern
+ * @date 2021/3/27
  */
 @Data
 @NoArgsConstructor
 @SuperBuilder
-public class Coordinate implements Serializable {
+public class AssetUpdate implements Serializable {
     protected static final long serialVersionUID = 1L;
-    String lat;
-    String lon;
+    private String name;
+    //private String metaId;
+    private String parentAssetId;
 }

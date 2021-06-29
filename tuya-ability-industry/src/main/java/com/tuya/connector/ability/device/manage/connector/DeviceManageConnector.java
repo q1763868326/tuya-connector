@@ -1,8 +1,6 @@
 package com.tuya.connector.ability.device.manage.connector;
 
-
 import com.tuya.connector.ability.device.manage.model.Device;
-import com.tuya.connector.ability.device.manage.model.DeviceModify;
 import com.tuya.connector.ability.device.manage.model.Devices;
 import com.tuya.connector.api.annotations.Body;
 import com.tuya.connector.api.annotations.DELETE;
@@ -12,7 +10,6 @@ import com.tuya.connector.api.annotations.Path;
 import com.tuya.connector.api.annotations.Query;
 
 /**
- *
  * @author Chyern
  * @date 2021/3/27
  */
@@ -25,12 +22,12 @@ public interface DeviceManageConnector {
     Boolean deleteDevices(@Query("device_ids") String deviceIds);
 
     @PUT("/v1.0/iot-03/devices/{device_id}")
-    Boolean modifyDevice(@Path("device_id") String deviceId, @Body DeviceModify request);
+    Boolean updateDevice(@Path("device_id") String deviceId, @Body Device device);
 
     @GET("/v1.0/iot-03/devices/{device_id}")
-    Device selectDevice(@Path("device_id") String deviceId);
+    Device queryDeviceById(@Path("device_id") String deviceId);
 
     @GET("/v1.0/iot-03/devices")
-    Devices selectDevices(@Query("device_ids") String deviceIds);
+    Devices queryDevicesByIds(@Query("device_ids") String deviceIds);
 
 }

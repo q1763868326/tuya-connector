@@ -1,13 +1,9 @@
 package com.tuya.connector.ability.acl.model;
 
-import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
+import com.google.gson.annotations.SerializedName;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.experimental.FieldDefaults;
 import lombok.experimental.SuperBuilder;
-
 import java.io.Serializable;
 
 /**
@@ -17,14 +13,14 @@ import java.io.Serializable;
  */
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
 @SuperBuilder
 public class AclPermission implements Serializable {
     protected static final long serialVersionUID = 1L;
 
     /**
-     * 权限标识
+     * 权限标识   SerializedName 这个注解别随便去掉，对方会收不到这个参数。至于其他参数为什么可以，谁知道呢
      */
+    @SerializedName("permissionCode")
     String permissionCode;
 
     /**
