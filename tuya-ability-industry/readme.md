@@ -1,7 +1,7 @@
 # 包组织说明
 所有的ability，都在com.tuya.connector.ability包中
 
-有些ability具有共同的主题，建议放到相同的子包中。
+有些ability具有共同的主题(比如设备管理、设备控制、设备状态查询)，建议放到相同的子包中。
 
 后续可能有些ability在多个维度有共同的主题，这个问题后面遇到再说（重构）。
 
@@ -46,6 +46,8 @@ eg:
 - 策略四 
   
 所有请求参数或者响应结果都不加后缀
+
+特殊情况除外（XxxPageResult，XxxPageParam）
 ...
   
 本项目采用策略四
@@ -57,5 +59,34 @@ acl包下的属性名，如果不全为小写，则添加@Serialized("对应的�
   
 - model类统一加上lombok注解五件套
 - connector 添加类注释，方法注释
+
+# 方法名称
+- 新增用create或者add
+
+如果是现实中已存在的事物，添加到系统中，则用add。
+
+如果是现实中没有的事物，在系统中被创建，则用create。
+
+- 修改用update
+
+- 删除用delete
+
+- 查询用query
+
+分页查询用queryPagingXxxs
+
+分页参数用SomethingsPageParam
+
+按单个字段查询用queryByXxx
+
+查询单个比如用queryUserByUid
+
+查询多个比如用queryUsersByRole
+
+单词复数不考虑特殊形式复数变换，统一后面加s，比如country的复数写成countrys，不写成countries
+
+# model中的内部类
+不建议使用内部类
+
 
 

@@ -1,0 +1,1400 @@
+[
+  {
+    "countryCode": "AF",
+    "countryName": "阿富汗",
+    "countryPhoneticAlphabet": "afuhan",
+    "nationalNumber": "93"
+  },
+  {
+    "countryCode": "AL",
+    "countryName": "阿尔巴尼亚",
+    "countryPhoneticAlphabet": "aerbaniya",
+    "nationalNumber": "355"
+  },
+  {
+    "countryCode": "DZ",
+    "countryName": "阿尔及利亚",
+    "countryPhoneticAlphabet": "aerjiliya",
+    "nationalNumber": "213"
+  },
+  {
+    "countryCode": "AO",
+    "countryName": "安哥拉",
+    "countryPhoneticAlphabet": "angela",
+    "nationalNumber": "244"
+  },
+  {
+    "countryCode": "AR",
+    "countryName": "阿根廷",
+    "countryPhoneticAlphabet": "agenting",
+    "nationalNumber": "54"
+  },
+  {
+    "countryCode": "AM",
+    "countryName": "亚美尼亚",
+    "countryPhoneticAlphabet": "yameiniya",
+    "nationalNumber": "374"
+  },
+  {
+    "countryCode": "AU",
+    "countryName": "澳大利亚",
+    "countryPhoneticAlphabet": "aodaliya",
+    "nationalNumber": "61"
+  },
+  {
+    "countryCode": "AT",
+    "countryName": "奥地利",
+    "countryPhoneticAlphabet": "aodili",
+    "nationalNumber": "43"
+  },
+  {
+    "countryCode": "AZ",
+    "countryName": "阿塞拜疆",
+    "countryPhoneticAlphabet": "asaibaijiang",
+    "nationalNumber": "994"
+  },
+  {
+    "countryCode": "BH",
+    "countryName": "巴林",
+    "countryPhoneticAlphabet": "balin",
+    "nationalNumber": "973"
+  },
+  {
+    "countryCode": "BD",
+    "countryName": "孟加拉国",
+    "countryPhoneticAlphabet": "mengjialaguo",
+    "nationalNumber": "880"
+  },
+  {
+    "countryCode": "BY",
+    "countryName": "白俄罗斯",
+    "countryPhoneticAlphabet": "baieluosi",
+    "nationalNumber": "375"
+  },
+  {
+    "countryCode": "BE",
+    "countryName": "比利时",
+    "countryPhoneticAlphabet": "bilishi",
+    "nationalNumber": "32"
+  },
+  {
+    "countryCode": "BZ",
+    "countryName": "伯利兹",
+    "countryPhoneticAlphabet": "bolizi",
+    "nationalNumber": "501"
+  },
+  {
+    "countryCode": "BJ",
+    "countryName": "贝宁",
+    "countryPhoneticAlphabet": "beining",
+    "nationalNumber": "229"
+  },
+  {
+    "countryCode": "BT",
+    "countryName": "不丹",
+    "countryPhoneticAlphabet": "budan",
+    "nationalNumber": "975"
+  },
+  {
+    "countryCode": "BO",
+    "countryName": "玻利维亚",
+    "countryPhoneticAlphabet": "boliweiya",
+    "nationalNumber": "591"
+  },
+  {
+    "countryCode": "BA",
+    "countryName": "波斯尼亚和黑塞哥维那",
+    "countryPhoneticAlphabet": "bosiniyaheheisaigeweinei",
+    "nationalNumber": "387"
+  },
+  {
+    "countryCode": "BW",
+    "countryName": "博茨瓦纳",
+    "countryPhoneticAlphabet": "bociwana",
+    "nationalNumber": "267"
+  },
+  {
+    "countryCode": "BR",
+    "countryName": "巴西",
+    "countryPhoneticAlphabet": "baxi",
+    "nationalNumber": "55"
+  },
+  {
+    "countryCode": "VG",
+    "countryName": "英属维京群岛",
+    "countryPhoneticAlphabet": "yingshuweijingqundao",
+    "nationalNumber": "1284"
+  },
+  {
+    "countryCode": "BN",
+    "countryName": "文莱",
+    "countryPhoneticAlphabet": "wenlai",
+    "nationalNumber": "673"
+  },
+  {
+    "countryCode": "BG",
+    "countryName": "保加利亚",
+    "countryPhoneticAlphabet": "baojialiya",
+    "nationalNumber": "359"
+  },
+  {
+    "countryCode": "BF",
+    "countryName": "布基纳法索",
+    "countryPhoneticAlphabet": "bujinafasuo",
+    "nationalNumber": "226"
+  },
+  {
+    "countryCode": "BI",
+    "countryName": "布隆迪",
+    "countryPhoneticAlphabet": "bulongdi",
+    "nationalNumber": "257"
+  },
+  {
+    "countryCode": "KH",
+    "countryName": "柬埔寨",
+    "countryPhoneticAlphabet": "jianpuzhai",
+    "nationalNumber": "855"
+  },
+  {
+    "countryCode": "CM",
+    "countryName": "喀麦隆",
+    "countryPhoneticAlphabet": "kamailong",
+    "nationalNumber": "237"
+  },
+  {
+    "countryCode": "US",
+    "countryName": "美国",
+    "countryPhoneticAlphabet": "meiguo",
+    "nationalNumber": "1"
+  },
+  {
+    "countryCode": "CA",
+    "countryName": "加拿大",
+    "countryPhoneticAlphabet": "jianada",
+    "nationalNumber": "1"
+  },
+  {
+    "countryCode": "CV",
+    "countryName": "佛得角",
+    "countryPhoneticAlphabet": "fodejiao",
+    "nationalNumber": "238"
+  },
+  {
+    "countryCode": "KY",
+    "countryName": "开曼群岛",
+    "countryPhoneticAlphabet": "kaimanqundao",
+    "nationalNumber": "1345"
+  },
+  {
+    "countryCode": "CF",
+    "countryName": "中非共和国",
+    "countryPhoneticAlphabet": "zhongfeigongheguo",
+    "nationalNumber": "236"
+  },
+  {
+    "countryCode": "TD",
+    "countryName": "乍得",
+    "countryPhoneticAlphabet": "zhade",
+    "nationalNumber": "235"
+  },
+  {
+    "countryCode": "CL",
+    "countryName": "智利",
+    "countryPhoneticAlphabet": "zhili",
+    "nationalNumber": "56"
+  },
+  {
+    "countryCode": "CN",
+    "countryName": "中国",
+    "countryPhoneticAlphabet": "zhongguo",
+    "nationalNumber": "86"
+  },
+  {
+    "countryCode": "CO",
+    "countryName": "哥伦比亚",
+    "countryPhoneticAlphabet": "gelunbiya",
+    "nationalNumber": "57"
+  },
+  {
+    "countryCode": "KM",
+    "countryName": "科摩罗",
+    "countryPhoneticAlphabet": "kemoluo",
+    "nationalNumber": "269"
+  },
+  {
+    "countryCode": "CG",
+    "countryName": "刚果(布)",
+    "countryPhoneticAlphabet": "gangguo(bu)",
+    "nationalNumber": "242"
+  },
+  {
+    "countryCode": "CD",
+    "countryName": "刚果(金)",
+    "countryPhoneticAlphabet": "gangguo(jin)",
+    "nationalNumber": "243"
+  },
+  {
+    "countryCode": "CR",
+    "countryName": "哥斯达黎加",
+    "countryPhoneticAlphabet": "gesidalijia",
+    "nationalNumber": "506"
+  },
+  {
+    "countryCode": "HR",
+    "countryName": "克罗地亚",
+    "countryPhoneticAlphabet": "keluodiya",
+    "nationalNumber": "385"
+  },
+  {
+    "countryCode": "CY",
+    "countryName": "塞浦路斯",
+    "countryPhoneticAlphabet": "saipulusi",
+    "nationalNumber": "357"
+  },
+  {
+    "countryCode": "CZ",
+    "countryName": "捷克共和国",
+    "countryPhoneticAlphabet": "jiekegongheguo",
+    "nationalNumber": "420"
+  },
+  {
+    "countryCode": "DK",
+    "countryName": "丹麦",
+    "countryPhoneticAlphabet": "danmai",
+    "nationalNumber": "45"
+  },
+  {
+    "countryCode": "DJ",
+    "countryName": "吉布提",
+    "countryPhoneticAlphabet": "jibuti",
+    "nationalNumber": "253"
+  },
+  {
+    "countryCode": "DO",
+    "countryName": "多米尼加共和国 (1-809)",
+    "countryPhoneticAlphabet": "duominijiagongheguo (1-809)",
+    "nationalNumber": "1809"
+  },
+  {
+    "countryCode": "DO",
+    "countryName": "多米尼加共和国 (1-829)",
+    "countryPhoneticAlphabet": "duominijiagongheguo (1-829)",
+    "nationalNumber": "1829"
+  },
+  {
+    "countryCode": "DO",
+    "countryName": "多米尼加共和国 (1-849)",
+    "countryPhoneticAlphabet": "duominijiagongheguo (1-849)",
+    "nationalNumber": "1849"
+  },
+  {
+    "countryCode": "EC",
+    "countryName": "厄瓜多尔",
+    "countryPhoneticAlphabet": "eguaduoer",
+    "nationalNumber": "593"
+  },
+  {
+    "countryCode": "EG",
+    "countryName": "埃及",
+    "countryPhoneticAlphabet": "aiji",
+    "nationalNumber": "20"
+  },
+  {
+    "countryCode": "SV",
+    "countryName": "萨尔瓦多",
+    "countryPhoneticAlphabet": "saerwaduo",
+    "nationalNumber": "503"
+  },
+  {
+    "countryCode": "GQ",
+    "countryName": "赤道几内亚",
+    "countryPhoneticAlphabet": "chidaojineiya",
+    "nationalNumber": "240"
+  },
+  {
+    "countryCode": "ER",
+    "countryName": "厄立特里亚",
+    "countryPhoneticAlphabet": "eliteliya",
+    "nationalNumber": "291"
+  },
+  {
+    "countryCode": "EE",
+    "countryName": "爱沙尼亚",
+    "countryPhoneticAlphabet": "aishaniya",
+    "nationalNumber": "372"
+  },
+  {
+    "countryCode": "ET",
+    "countryName": "埃塞俄比亚",
+    "countryPhoneticAlphabet": "aisaiebiya",
+    "nationalNumber": "251"
+  },
+  {
+    "countryCode": "FJ",
+    "countryName": "斐济",
+    "countryPhoneticAlphabet": "feiji",
+    "nationalNumber": "679"
+  },
+  {
+    "countryCode": "FI",
+    "countryName": "芬兰",
+    "countryPhoneticAlphabet": "fenlan",
+    "nationalNumber": "358"
+  },
+  {
+    "countryCode": "FR",
+    "countryName": "法国",
+    "countryPhoneticAlphabet": "faguo",
+    "nationalNumber": "33"
+  },
+  {
+    "countryCode": "GA",
+    "countryName": "加蓬",
+    "countryPhoneticAlphabet": "jiapeng",
+    "nationalNumber": "241"
+  },
+  {
+    "countryCode": "GM",
+    "countryName": "冈比亚",
+    "countryPhoneticAlphabet": "gangbiya",
+    "nationalNumber": "220"
+  },
+  {
+    "countryCode": "GE",
+    "countryName": "格鲁吉亚",
+    "countryPhoneticAlphabet": "gelujiya",
+    "nationalNumber": "995"
+  },
+  {
+    "countryCode": "GI",
+    "countryName": "直布罗陀",
+    "countryPhoneticAlphabet": "zhibuluotuo",
+    "nationalNumber": "350"
+  },
+  {
+    "countryCode": "DE",
+    "countryName": "德国",
+    "countryPhoneticAlphabet": "deguo",
+    "nationalNumber": "49"
+  },
+  {
+    "countryCode": "GH",
+    "countryName": "加纳",
+    "countryPhoneticAlphabet": "jiana",
+    "nationalNumber": "233"
+  },
+  {
+    "countryCode": "GR",
+    "countryName": "希腊",
+    "countryPhoneticAlphabet": "xila",
+    "nationalNumber": "30"
+  },
+  {
+    "countryCode": "GL",
+    "countryName": "格陵兰",
+    "countryPhoneticAlphabet": "gelinglan",
+    "nationalNumber": "299"
+  },
+  {
+    "countryCode": "GT",
+    "countryName": "危地马拉",
+    "countryPhoneticAlphabet": "weidimala",
+    "nationalNumber": "502"
+  },
+  {
+    "countryCode": "GN",
+    "countryName": "几内亚",
+    "countryPhoneticAlphabet": "jineiya",
+    "nationalNumber": "224"
+  },
+  {
+    "countryCode": "GY",
+    "countryName": "圭亚那",
+    "countryPhoneticAlphabet": "guiyanei",
+    "nationalNumber": "592"
+  },
+  {
+    "countryCode": "HT",
+    "countryName": "海地",
+    "countryPhoneticAlphabet": "haidi",
+    "nationalNumber": "509"
+  },
+  {
+    "countryCode": "HN",
+    "countryName": "洪都拉斯",
+    "countryPhoneticAlphabet": "hongdoulasi",
+    "nationalNumber": "504"
+  },
+  {
+    "countryCode": "HK",
+    "countryName": "香港(中国)",
+    "countryPhoneticAlphabet": "xianggang(zhongguo)",
+    "nationalNumber": "852"
+  },
+  {
+    "countryCode": "HU",
+    "countryName": "匈牙利",
+    "countryPhoneticAlphabet": "xiongyali",
+    "nationalNumber": "36"
+  },
+  {
+    "countryCode": "IS",
+    "countryName": "冰岛",
+    "countryPhoneticAlphabet": "bingdao",
+    "nationalNumber": "354"
+  },
+  {
+    "countryCode": "IN",
+    "countryName": "印度",
+    "countryPhoneticAlphabet": "yindu",
+    "nationalNumber": "91"
+  },
+  {
+    "countryCode": "ID",
+    "countryName": "印度尼西亚",
+    "countryPhoneticAlphabet": "yindunixiya",
+    "nationalNumber": "62"
+  },
+  {
+    "countryCode": "IQ",
+    "countryName": "伊拉克",
+    "countryPhoneticAlphabet": "yilake",
+    "nationalNumber": "964"
+  },
+  {
+    "countryCode": "IE",
+    "countryName": "爱尔兰",
+    "countryPhoneticAlphabet": "aierlan",
+    "nationalNumber": "353"
+  },
+  {
+    "countryCode": "IM",
+    "countryName": "马恩岛",
+    "countryPhoneticAlphabet": "maendao",
+    "nationalNumber": "44"
+  },
+  {
+    "countryCode": "IL",
+    "countryName": "以色列",
+    "countryPhoneticAlphabet": "yiselie",
+    "nationalNumber": "972"
+  },
+  {
+    "countryCode": "IT",
+    "countryName": "意大利",
+    "countryPhoneticAlphabet": "yidali",
+    "nationalNumber": "39"
+  },
+  {
+    "countryCode": "CI",
+    "countryName": "科特迪瓦",
+    "countryPhoneticAlphabet": "ketediwa",
+    "nationalNumber": "225"
+  },
+  {
+    "countryCode": "JM",
+    "countryName": "牙买加",
+    "countryPhoneticAlphabet": "yamaijia",
+    "nationalNumber": "1876"
+  },
+  {
+    "countryCode": "JP",
+    "countryName": "日本",
+    "countryPhoneticAlphabet": "riben",
+    "nationalNumber": "81"
+  },
+  {
+    "countryCode": "JO",
+    "countryName": "约旦",
+    "countryPhoneticAlphabet": "yuedan",
+    "nationalNumber": "962"
+  },
+  {
+    "countryCode": "KZ",
+    "countryName": "哈萨克斯坦",
+    "countryPhoneticAlphabet": "hasakesitan",
+    "nationalNumber": "7"
+  },
+  {
+    "countryCode": "KE",
+    "countryName": "肯尼亚",
+    "countryPhoneticAlphabet": "kenniya",
+    "nationalNumber": "254"
+  },
+  {
+    "countryCode": "KR",
+    "countryName": "韩国",
+    "countryPhoneticAlphabet": "hanguo",
+    "nationalNumber": "82"
+  },
+  {
+    "countryCode": "KW",
+    "countryName": "科威特",
+    "countryPhoneticAlphabet": "keweite",
+    "nationalNumber": "965"
+  },
+  {
+    "countryCode": "KG",
+    "countryName": "吉尔吉斯斯坦",
+    "countryPhoneticAlphabet": "jierjisisitan",
+    "nationalNumber": "996"
+  },
+  {
+    "countryCode": "LA",
+    "countryName": "老挝",
+    "countryPhoneticAlphabet": "laowo",
+    "nationalNumber": "856"
+  },
+  {
+    "countryCode": "LI",
+    "countryName": "列支敦士登",
+    "countryPhoneticAlphabet": "liezhidunshideng",
+    "nationalNumber": "423"
+  },
+  {
+    "countryCode": "LV",
+    "countryName": "拉脱维亚",
+    "countryPhoneticAlphabet": "latuoweiya",
+    "nationalNumber": "371"
+  },
+  {
+    "countryCode": "LB",
+    "countryName": "黎巴嫩",
+    "countryPhoneticAlphabet": "libanen",
+    "nationalNumber": "961"
+  },
+  {
+    "countryCode": "LS",
+    "countryName": "莱索托",
+    "countryPhoneticAlphabet": "laisuotuo",
+    "nationalNumber": "266"
+  },
+  {
+    "countryCode": "LR",
+    "countryName": "利比里亚",
+    "countryPhoneticAlphabet": "libiliya",
+    "nationalNumber": "231"
+  },
+  {
+    "countryCode": "LY",
+    "countryName": "利比亚",
+    "countryPhoneticAlphabet": "libiya",
+    "nationalNumber": "218"
+  },
+  {
+    "countryCode": "LT",
+    "countryName": "立陶宛",
+    "countryPhoneticAlphabet": "litaowan",
+    "nationalNumber": "370"
+  },
+  {
+    "countryCode": "LU",
+    "countryName": "卢森堡",
+    "countryPhoneticAlphabet": "lusenbao",
+    "nationalNumber": "352"
+  },
+  {
+    "countryCode": "MO",
+    "countryName": "澳门(中国)",
+    "countryPhoneticAlphabet": "aomen(zhongguo)",
+    "nationalNumber": "853"
+  },
+  {
+    "countryCode": "MK",
+    "countryName": "马其顿",
+    "countryPhoneticAlphabet": "maqidun",
+    "nationalNumber": "389"
+  },
+  {
+    "countryCode": "MG",
+    "countryName": "马达加斯加",
+    "countryPhoneticAlphabet": "madajiasijia",
+    "nationalNumber": "261"
+  },
+  {
+    "countryCode": "MW",
+    "countryName": "马拉维",
+    "countryPhoneticAlphabet": "malawei",
+    "nationalNumber": "265"
+  },
+  {
+    "countryCode": "MY",
+    "countryName": "马来西亚",
+    "countryPhoneticAlphabet": "malaixiya",
+    "nationalNumber": "60"
+  },
+  {
+    "countryCode": "MV",
+    "countryName": "马尔代夫",
+    "countryPhoneticAlphabet": "maerdaifu",
+    "nationalNumber": "960"
+  },
+  {
+    "countryCode": "ML",
+    "countryName": "马里",
+    "countryPhoneticAlphabet": "mali",
+    "nationalNumber": "223"
+  },
+  {
+    "countryCode": "MT",
+    "countryName": "马耳他",
+    "countryPhoneticAlphabet": "maerta",
+    "nationalNumber": "356"
+  },
+  {
+    "countryCode": "MR",
+    "countryName": "毛利塔尼亚",
+    "countryPhoneticAlphabet": "maolitaniya",
+    "nationalNumber": "222"
+  },
+  {
+    "countryCode": "MU",
+    "countryName": "毛里求斯",
+    "countryPhoneticAlphabet": "maoliqiusi",
+    "nationalNumber": "230"
+  },
+  {
+    "countryCode": "MX",
+    "countryName": "墨西哥",
+    "countryPhoneticAlphabet": "moxige",
+    "nationalNumber": "52"
+  },
+  {
+    "countryCode": "MD",
+    "countryName": "摩尔多瓦",
+    "countryPhoneticAlphabet": "moerduowa",
+    "nationalNumber": "373"
+  },
+  {
+    "countryCode": "MC",
+    "countryName": "摩纳哥",
+    "countryPhoneticAlphabet": "monage",
+    "nationalNumber": "377"
+  },
+  {
+    "countryCode": "MN",
+    "countryName": "蒙古",
+    "countryPhoneticAlphabet": "menggu",
+    "nationalNumber": "976"
+  },
+  {
+    "countryCode": "ME",
+    "countryName": "黑山共和国",
+    "countryPhoneticAlphabet": "heishangongheguo",
+    "nationalNumber": "382"
+  },
+  {
+    "countryCode": "MA",
+    "countryName": "摩洛哥",
+    "countryPhoneticAlphabet": "moluoge",
+    "nationalNumber": "212"
+  },
+  {
+    "countryCode": "MZ",
+    "countryName": "莫桑比克",
+    "countryPhoneticAlphabet": "mosangbike",
+    "nationalNumber": "258"
+  },
+  {
+    "countryCode": "MM",
+    "countryName": "缅甸",
+    "countryPhoneticAlphabet": "miandian",
+    "nationalNumber": "95"
+  },
+  {
+    "countryCode": "NA",
+    "countryName": "纳米比亚",
+    "countryPhoneticAlphabet": "namibiya",
+    "nationalNumber": "264"
+  },
+  {
+    "countryCode": "NP",
+    "countryName": "尼泊尔",
+    "countryPhoneticAlphabet": "niboer",
+    "nationalNumber": "977"
+  },
+  {
+    "countryCode": "NL",
+    "countryName": "荷兰",
+    "countryPhoneticAlphabet": "helan",
+    "nationalNumber": "31"
+  },
+  {
+    "countryCode": "NZ",
+    "countryName": "新西兰",
+    "countryPhoneticAlphabet": "xinxilan",
+    "nationalNumber": "64"
+  },
+  {
+    "countryCode": "NI",
+    "countryName": "尼加瓜拉",
+    "countryPhoneticAlphabet": "nijiaguala",
+    "nationalNumber": "505"
+  },
+  {
+    "countryCode": "NE",
+    "countryName": "尼日尔",
+    "countryPhoneticAlphabet": "nirier",
+    "nationalNumber": "227"
+  },
+  {
+    "countryCode": "NG",
+    "countryName": "尼日利亚",
+    "countryPhoneticAlphabet": "niriliya",
+    "nationalNumber": "234"
+  },
+  {
+    "countryCode": "NO",
+    "countryName": "挪威",
+    "countryPhoneticAlphabet": "nuowei",
+    "nationalNumber": "47"
+  },
+  {
+    "countryCode": "OM",
+    "countryName": "阿曼",
+    "countryPhoneticAlphabet": "aman",
+    "nationalNumber": "968"
+  },
+  {
+    "countryCode": "PK",
+    "countryName": "巴基斯坦",
+    "countryPhoneticAlphabet": "bajisitan",
+    "nationalNumber": "92"
+  },
+  {
+    "countryCode": "PS",
+    "countryName": "巴勒斯坦",
+    "countryPhoneticAlphabet": "balesitan",
+    "nationalNumber": "970"
+  },
+  {
+    "countryCode": "PA",
+    "countryName": "巴拿马",
+    "countryPhoneticAlphabet": "banama",
+    "nationalNumber": "507"
+  },
+  {
+    "countryCode": "PY",
+    "countryName": "巴拉圭",
+    "countryPhoneticAlphabet": "balagui",
+    "nationalNumber": "595"
+  },
+  {
+    "countryCode": "PE",
+    "countryName": "秘鲁",
+    "countryPhoneticAlphabet": "milu",
+    "nationalNumber": "51"
+  },
+  {
+    "countryCode": "PH",
+    "countryName": "菲律宾",
+    "countryPhoneticAlphabet": "feilvbin",
+    "nationalNumber": "63"
+  },
+  {
+    "countryCode": "PL",
+    "countryName": "波兰",
+    "countryPhoneticAlphabet": "bolan",
+    "nationalNumber": "48"
+  },
+  {
+    "countryCode": "PF",
+    "countryName": "法属玻利尼西亚",
+    "countryPhoneticAlphabet": "fashubolinixiya",
+    "nationalNumber": "689"
+  },
+  {
+    "countryCode": "PT",
+    "countryName": "葡萄牙",
+    "countryPhoneticAlphabet": "putaoya",
+    "nationalNumber": "351"
+  },
+  {
+    "countryCode": "PR",
+    "countryName": "波多黎各",
+    "countryPhoneticAlphabet": "boduolige",
+    "nationalNumber": "1787"
+  },
+  {
+    "countryCode": "QA",
+    "countryName": "卡塔尔",
+    "countryPhoneticAlphabet": "kataer",
+    "nationalNumber": "974"
+  },
+  {
+    "countryCode": "RE",
+    "countryName": "马约特",
+    "countryPhoneticAlphabet": "mayuete",
+    "nationalNumber": "262"
+  },
+  {
+    "countryCode": "RO",
+    "countryName": "罗马尼亚",
+    "countryPhoneticAlphabet": "luomaniya",
+    "nationalNumber": "40"
+  },
+  {
+    "countryCode": "RU",
+    "countryName": "俄罗斯",
+    "countryPhoneticAlphabet": "eluosi",
+    "nationalNumber": "7"
+  },
+  {
+    "countryCode": "RW",
+    "countryName": "卢旺达",
+    "countryPhoneticAlphabet": "luwangda",
+    "nationalNumber": "250"
+  },
+  {
+    "countryCode": "SM",
+    "countryName": "圣马力诺",
+    "countryPhoneticAlphabet": "shengmalinuo",
+    "nationalNumber": "378"
+  },
+  {
+    "countryCode": "SA",
+    "countryName": "沙特阿拉伯",
+    "countryPhoneticAlphabet": "shatealabo",
+    "nationalNumber": "966"
+  },
+  {
+    "countryCode": "SN",
+    "countryName": "塞内加尔",
+    "countryPhoneticAlphabet": "saineijiaer",
+    "nationalNumber": "221"
+  },
+  {
+    "countryCode": "RS",
+    "countryName": "塞尔维亚",
+    "countryPhoneticAlphabet": "saierweiya",
+    "nationalNumber": "381"
+  },
+  {
+    "countryCode": "SL",
+    "countryName": "塞拉利昂",
+    "countryPhoneticAlphabet": "sailaliang",
+    "nationalNumber": "232"
+  },
+  {
+    "countryCode": "SG",
+    "countryName": "新加坡",
+    "countryPhoneticAlphabet": "xinjiapo",
+    "nationalNumber": "65"
+  },
+  {
+    "countryCode": "SK",
+    "countryName": "斯洛伐克",
+    "countryPhoneticAlphabet": "siluofake",
+    "nationalNumber": "421"
+  },
+  {
+    "countryCode": "SI",
+    "countryName": "斯洛文尼亚",
+    "countryPhoneticAlphabet": "siluowenniya",
+    "nationalNumber": "386"
+  },
+  {
+    "countryCode": "SO",
+    "countryName": "索马里",
+    "countryPhoneticAlphabet": "suomali",
+    "nationalNumber": "252"
+  },
+  {
+    "countryCode": "ZA",
+    "countryName": "南非",
+    "countryPhoneticAlphabet": "nanfei",
+    "nationalNumber": "27"
+  },
+  {
+    "countryCode": "ES",
+    "countryName": "西班牙",
+    "countryPhoneticAlphabet": "xibanya",
+    "nationalNumber": "34"
+  },
+  {
+    "countryCode": "LK",
+    "countryName": "斯里兰卡",
+    "countryPhoneticAlphabet": "sililanka",
+    "nationalNumber": "94"
+  },
+  {
+    "countryCode": "SD",
+    "countryName": "苏丹",
+    "countryPhoneticAlphabet": "sudan",
+    "nationalNumber": "249"
+  },
+  {
+    "countryCode": "SR",
+    "countryName": "苏里南",
+    "countryPhoneticAlphabet": "sulinan",
+    "nationalNumber": "597"
+  },
+  {
+    "countryCode": "SZ",
+    "countryName": "斯威士兰",
+    "countryPhoneticAlphabet": "siweishilan",
+    "nationalNumber": "268"
+  },
+  {
+    "countryCode": "SE",
+    "countryName": "瑞典",
+    "countryPhoneticAlphabet": "ruidian",
+    "nationalNumber": "46"
+  },
+  {
+    "countryCode": "CH",
+    "countryName": "瑞士",
+    "countryPhoneticAlphabet": "ruishi",
+    "nationalNumber": "41"
+  },
+  {
+    "countryCode": "TW",
+    "countryName": "台湾(中国)",
+    "countryPhoneticAlphabet": "taiwan(zhongguo)",
+    "nationalNumber": "886"
+  },
+  {
+    "countryCode": "TJ",
+    "countryName": "塔吉克斯坦",
+    "countryPhoneticAlphabet": "tajikesitan",
+    "nationalNumber": "992"
+  },
+  {
+    "countryCode": "TZ",
+    "countryName": "坦桑尼亚",
+    "countryPhoneticAlphabet": "tansangniya",
+    "nationalNumber": "255"
+  },
+  {
+    "countryCode": "TH",
+    "countryName": "泰国",
+    "countryPhoneticAlphabet": "taiguo",
+    "nationalNumber": "66"
+  },
+  {
+    "countryCode": "TG",
+    "countryName": "多哥",
+    "countryPhoneticAlphabet": "duoge",
+    "nationalNumber": "228"
+  },
+  {
+    "countryCode": "TO",
+    "countryName": "汤加",
+    "countryPhoneticAlphabet": "tangjia",
+    "nationalNumber": "676"
+  },
+  {
+    "countryCode": "TT",
+    "countryName": "特立尼达和多巴哥",
+    "countryPhoneticAlphabet": "telinidaheduobage",
+    "nationalNumber": "1868"
+  },
+  {
+    "countryCode": "TN",
+    "countryName": "突尼斯",
+    "countryPhoneticAlphabet": "tunisi",
+    "nationalNumber": "216"
+  },
+  {
+    "countryCode": "TR",
+    "countryName": "土耳其",
+    "countryPhoneticAlphabet": "tuerqi",
+    "nationalNumber": "90"
+  },
+  {
+    "countryCode": "TM",
+    "countryName": "土库曼斯坦",
+    "countryPhoneticAlphabet": "tukumansitan",
+    "nationalNumber": "993"
+  },
+  {
+    "countryCode": "VI",
+    "countryName": "美属维尔京群岛",
+    "countryPhoneticAlphabet": "meishuweierjingqundao",
+    "nationalNumber": "1340"
+  },
+  {
+    "countryCode": "UG",
+    "countryName": "乌干达",
+    "countryPhoneticAlphabet": "wuganda",
+    "nationalNumber": "256"
+  },
+  {
+    "countryCode": "UA",
+    "countryName": "乌克兰",
+    "countryPhoneticAlphabet": "wukelan",
+    "nationalNumber": "380"
+  },
+  {
+    "countryCode": "AE",
+    "countryName": "阿拉伯联合酋长国",
+    "countryPhoneticAlphabet": "alabolianheqiuzhangguo",
+    "nationalNumber": "971"
+  },
+  {
+    "countryCode": "GB",
+    "countryName": "英国",
+    "countryPhoneticAlphabet": "yingguo",
+    "nationalNumber": "44"
+  },
+  {
+    "countryCode": "UY",
+    "countryName": "乌拉圭",
+    "countryPhoneticAlphabet": "wulagui",
+    "nationalNumber": "598"
+  },
+  {
+    "countryCode": "UZ",
+    "countryName": "乌兹别克斯坦",
+    "countryPhoneticAlphabet": "wuzibiekesitan",
+    "nationalNumber": "998"
+  },
+  {
+    "countryCode": "VA",
+    "countryName": "梵蒂冈城",
+    "countryPhoneticAlphabet": "fandigangcheng",
+    "nationalNumber": "379"
+  },
+  {
+    "countryCode": "VE",
+    "countryName": "委内瑞拉",
+    "countryPhoneticAlphabet": "weineiruila",
+    "nationalNumber": "58"
+  },
+  {
+    "countryCode": "VN",
+    "countryName": "越南",
+    "countryPhoneticAlphabet": "yuenan",
+    "nationalNumber": "84"
+  },
+  {
+    "countryCode": "YE",
+    "countryName": "也门",
+    "countryPhoneticAlphabet": "yemen",
+    "nationalNumber": "967"
+  },
+  {
+    "countryCode": "ZR",
+    "countryName": "扎伊尔",
+    "countryPhoneticAlphabet": "zhayier",
+    "nationalNumber": "243"
+  },
+  {
+    "countryCode": "ZM",
+    "countryName": "赞比亚",
+    "countryPhoneticAlphabet": "zanbiya",
+    "nationalNumber": "260"
+  },
+  {
+    "countryCode": "ZW",
+    "countryName": "津巴布韦",
+    "countryPhoneticAlphabet": "jinbabuwei",
+    "nationalNumber": "263"
+  },
+  {
+    "countryCode": "NCL",
+    "countryName": "新喀里多尼亚",
+    "countryPhoneticAlphabet": "xinkaliduoniya",
+    "nationalNumber": "687"
+  },
+  {
+    "countryCode": "MQ",
+    "countryName": "马提尼克",
+    "countryPhoneticAlphabet": "matinike",
+    "nationalNumber": "596"
+  },
+  {
+    "countryCode": "CW",
+    "countryName": "库拉索",
+    "countryPhoneticAlphabet": "kulasuo",
+    "nationalNumber": "5999"
+  },
+  {
+    "countryCode": "AX",
+    "countryName": "奥兰",
+    "countryPhoneticAlphabet": "aolan",
+    "nationalNumber": "35818"
+  },
+  {
+    "countryCode": "AS",
+    "countryName": "美属萨摩亚",
+    "countryPhoneticAlphabet": "meishusamoya",
+    "nationalNumber": "1684"
+  },
+  {
+    "countryCode": "AD",
+    "countryName": "安道尔",
+    "countryPhoneticAlphabet": "andaoer",
+    "nationalNumber": "376"
+  },
+  {
+    "countryCode": "AI",
+    "countryName": "安圭拉",
+    "countryPhoneticAlphabet": "anguila",
+    "nationalNumber": "1264"
+  },
+  {
+    "countryCode": "AG",
+    "countryName": "安提瓜和巴布达",
+    "countryPhoneticAlphabet": "antiguahebabuda",
+    "nationalNumber": "1268"
+  },
+  {
+    "countryCode": "AW",
+    "countryName": "阿鲁巴",
+    "countryPhoneticAlphabet": "aluba",
+    "nationalNumber": "297"
+  },
+  {
+    "countryCode": "BS",
+    "countryName": "巴哈马",
+    "countryPhoneticAlphabet": "bahama",
+    "nationalNumber": "1242"
+  },
+  {
+    "countryCode": "BB",
+    "countryName": "巴巴多斯",
+    "countryPhoneticAlphabet": "babaduosi",
+    "nationalNumber": "1246"
+  },
+  {
+    "countryCode": "BM",
+    "countryName": "百慕大",
+    "countryPhoneticAlphabet": "baimuda",
+    "nationalNumber": "1441"
+  },
+  {
+    "countryCode": "IO",
+    "countryName": "英属印度洋领地",
+    "countryPhoneticAlphabet": "yingshuyinduyanglingdi",
+    "nationalNumber": "246"
+  },
+  {
+    "countryCode": "CK",
+    "countryName": "库克群岛",
+    "countryPhoneticAlphabet": "kukequndao",
+    "nationalNumber": "682"
+  },
+  {
+    "countryCode": "DM",
+    "countryName": "多米尼克",
+    "countryPhoneticAlphabet": "duominike",
+    "nationalNumber": "1767"
+  },
+  {
+    "countryCode": "FK",
+    "countryName": "福克兰群岛",
+    "countryPhoneticAlphabet": "fukelanqundao",
+    "nationalNumber": "500"
+  },
+  {
+    "countryCode": "FO",
+    "countryName": "法罗群岛",
+    "countryPhoneticAlphabet": "faluoqundao",
+    "nationalNumber": "298"
+  },
+  {
+    "countryCode": "GF",
+    "countryName": "法属圭亚那",
+    "countryPhoneticAlphabet": "fashuguiyanei",
+    "nationalNumber": "594"
+  },
+  {
+    "countryCode": "GD",
+    "countryName": "格林纳达",
+    "countryPhoneticAlphabet": "gelinnada",
+    "nationalNumber": "1473"
+  },
+  {
+    "countryCode": "GP",
+    "countryName": "瓜德罗普",
+    "countryPhoneticAlphabet": "guadeluopu",
+    "nationalNumber": "590"
+  },
+  {
+    "countryCode": "GU",
+    "countryName": "关岛",
+    "countryPhoneticAlphabet": "guandao",
+    "nationalNumber": "1671"
+  },
+  {
+    "countryCode": "GW",
+    "countryName": "几内亚比绍",
+    "countryPhoneticAlphabet": "jineiyabishao",
+    "nationalNumber": "245"
+  },
+  {
+    "countryCode": "KI",
+    "countryName": "基里巴斯",
+    "countryPhoneticAlphabet": "jilibasi",
+    "nationalNumber": "686"
+  },
+  {
+    "countryCode": "MH",
+    "countryName": "马绍尔群岛",
+    "countryPhoneticAlphabet": "mashaoerqundao",
+    "nationalNumber": "692"
+  },
+  {
+    "countryCode": "FM",
+    "countryName": "密克罗尼西亚联邦",
+    "countryPhoneticAlphabet": "mikeluonixiyalianbang",
+    "nationalNumber": "691"
+  },
+  {
+    "countryCode": "MS",
+    "countryName": "蒙特塞拉特",
+    "countryPhoneticAlphabet": "mengtesailate",
+    "nationalNumber": "1664"
+  },
+  {
+    "countryCode": "NR",
+    "countryName": "瑙鲁",
+    "countryPhoneticAlphabet": "naolu",
+    "nationalNumber": "674"
+  },
+  {
+    "countryCode": "NU",
+    "countryName": "纽埃",
+    "countryPhoneticAlphabet": "niuai",
+    "nationalNumber": "683"
+  },
+  {
+    "countryCode": "NF",
+    "countryName": "诺福克岛",
+    "countryPhoneticAlphabet": "nuofukedao",
+    "nationalNumber": "672"
+  },
+  {
+    "countryCode": "MP",
+    "countryName": "北马里亚纳群岛",
+    "countryPhoneticAlphabet": "beimaliyanaqundao",
+    "nationalNumber": "1670"
+  },
+  {
+    "countryCode": "PW",
+    "countryName": "帕劳",
+    "countryPhoneticAlphabet": "palao",
+    "nationalNumber": "680"
+  },
+  {
+    "countryCode": "PG",
+    "countryName": "巴布亚新几内亚",
+    "countryPhoneticAlphabet": "babuyaxinjineiya",
+    "nationalNumber": "675"
+  },
+  {
+    "countryCode": "BL",
+    "countryName": "圣巴泰勒米",
+    "countryPhoneticAlphabet": "shengbatailemi",
+    "nationalNumber": "590"
+  },
+  {
+    "countryCode": "KN",
+    "countryName": "圣基茨和尼维斯",
+    "countryPhoneticAlphabet": "shengjiciheniweisi",
+    "nationalNumber": "1869"
+  },
+  {
+    "countryCode": "LC",
+    "countryName": "圣卢西亚",
+    "countryPhoneticAlphabet": "shengluxiya",
+    "nationalNumber": "1758"
+  },
+  {
+    "countryCode": "MF",
+    "countryName": "法属圣马丁",
+    "countryPhoneticAlphabet": "fashushengmading",
+    "nationalNumber": "590"
+  },
+  {
+    "countryCode": "PM",
+    "countryName": "圣皮埃尔和密克隆",
+    "countryPhoneticAlphabet": "shengpiaierhemikelong",
+    "nationalNumber": "508"
+  },
+  {
+    "countryCode": "VC",
+    "countryName": "圣文森特和格林纳丁斯",
+    "countryPhoneticAlphabet": "shengwensentehegelinnadingsi",
+    "nationalNumber": "1784"
+  },
+  {
+    "countryCode": "WS",
+    "countryName": "萨摩亚",
+    "countryPhoneticAlphabet": "samoya",
+    "nationalNumber": "685"
+  },
+  {
+    "countryCode": "ST",
+    "countryName": "圣多美和普林西比",
+    "countryPhoneticAlphabet": "shengduomeihepulinxibi",
+    "nationalNumber": "239"
+  },
+  {
+    "countryCode": "SC",
+    "countryName": "塞舌尔",
+    "countryPhoneticAlphabet": "saisheer",
+    "nationalNumber": "248"
+  },
+  {
+    "countryCode": "SX",
+    "countryName": "荷属圣马丁",
+    "countryPhoneticAlphabet": "heshushengmading",
+    "nationalNumber": "1721"
+  },
+  {
+    "countryCode": "SB",
+    "countryName": "所罗门群岛",
+    "countryPhoneticAlphabet": "suoluomenqundao",
+    "nationalNumber": "677"
+  },
+  {
+    "countryCode": "SS",
+    "countryName": "南苏丹",
+    "countryPhoneticAlphabet": "nansudan",
+    "nationalNumber": "211"
+  },
+  {
+    "countryCode": "SJ",
+    "countryName": "斯瓦尔巴和扬马延",
+    "countryPhoneticAlphabet": "siwaerbaheyangmayan",
+    "nationalNumber": "4779"
+  },
+  {
+    "countryCode": "TL",
+    "countryName": "东帝汶",
+    "countryPhoneticAlphabet": "dongdiwen",
+    "nationalNumber": "670"
+  },
+  {
+    "countryCode": "TK",
+    "countryName": "托克劳",
+    "countryPhoneticAlphabet": "tuokelao",
+    "nationalNumber": "690"
+  },
+  {
+    "countryCode": "TC",
+    "countryName": "特克斯和凯科斯群岛",
+    "countryPhoneticAlphabet": "tekesihekaikesiqundao",
+    "nationalNumber": "1649"
+  },
+  {
+    "countryCode": "TV",
+    "countryName": "图瓦卢",
+    "countryPhoneticAlphabet": "tuwalu",
+    "nationalNumber": "688"
+  },
+  {
+    "countryCode": "VU",
+    "countryName": "瓦努阿图",
+    "countryPhoneticAlphabet": "wanuatu",
+    "nationalNumber": "678"
+  },
+  {
+    "countryCode": "WF",
+    "countryName": "瓦利斯和富图纳",
+    "countryPhoneticAlphabet": "walisihefutuna",
+    "nationalNumber": "681"
+  }
+]
