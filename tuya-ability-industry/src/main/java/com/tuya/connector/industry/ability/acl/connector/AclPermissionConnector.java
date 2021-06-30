@@ -3,7 +3,7 @@ package com.tuya.connector.industry.ability.acl.connector;
 import com.tuya.connector.industry.ability.acl.model.AclPermission;
 import com.tuya.connector.industry.ability.acl.model.AclPermissionCodes;
 import com.tuya.connector.industry.ability.acl.model.AclPermissions;
-import com.tuya.connector.industry.ability.acl.model.AclPermissionRoleCodes;
+import com.tuya.connector.industry.ability.acl.model.AclRoleCodes;
 import com.tuya.connector.industry.ability.acl.model.AclRole;
 import com.tuya.connector.api.annotations.Body;
 import com.tuya.connector.api.annotations.DELETE;
@@ -42,7 +42,7 @@ public interface AclPermissionConnector {
 
     @POST("/v1.0/iot-03/idaas/spaces/{space_id}/get-batch-role-permission")
     List<AclRole> queryPermissionsByRoleCodes(@Path("space_id") String spaceId,
-                                              @Body AclPermissionRoleCodes request);
+                                              @Body AclRoleCodes request);
 
     @GET("/v1.0/iot-03/idaas/spaces/{space_id}/users/{uid}/permissions")
     List<AclPermission> queryPermissionsByUid(@Path("space_id") String spaceId,

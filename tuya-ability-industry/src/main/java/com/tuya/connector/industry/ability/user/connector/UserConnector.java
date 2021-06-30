@@ -1,5 +1,6 @@
 package com.tuya.connector.industry.ability.user.connector;
 
+import com.tuya.connector.api.annotations.DELETE;
 import com.tuya.connector.industry.ability.user.model.PasswordModify;
 import com.tuya.connector.industry.ability.user.model.PasswordReset;
 import com.tuya.connector.industry.ability.user.model.UserRegister;
@@ -26,4 +27,7 @@ public interface UserConnector {
 
     @GET("/v1.0/iot-02/users/{user_id}")
     User queryUserByUid(@Path("user_id") String userId);
+
+    @DELETE("/v1.0/iot-02/users/{user_id}")
+    Boolean destroyUser(@Path("user_id") String userId);
 }

@@ -17,6 +17,7 @@ import java.util.List;
 public class AclSpace implements Serializable {
     protected static final long serialVersionUID = 1L;
 
+    String spaceId;
     /**
      * 空间分组
      */

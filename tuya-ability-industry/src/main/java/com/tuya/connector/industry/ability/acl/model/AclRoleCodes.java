@@ -14,7 +14,7 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @SuperBuilder
-public class AclPermissionRoleCodes implements Serializable {
+public class AclRoleCodes implements Serializable {
     protected static final long serialVersionUID = 1L;
 
     List<String> roleCodeList;

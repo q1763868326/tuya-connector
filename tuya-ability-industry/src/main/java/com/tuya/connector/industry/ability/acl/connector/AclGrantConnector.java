@@ -39,8 +39,7 @@ public interface AclGrantConnector {
     Boolean grantRoleToUser(@Body AclUserRole aclUserRole);
 
     @POST("/v1.0/iot-03/idaas/user-batch-role")
-
-    //Boolean setRolesToUser(@Body AclUserRoles aclUserRoles);
+    Boolean setRolesToUser(@Body AclUserRoles aclUserRoles);
 
     @DELETE("/v1.0/iot-03/idaas/user-role")
     Boolean revokeRoleFromUser(@Query("space_id") String spaceId,
